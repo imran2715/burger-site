@@ -3,357 +3,338 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Studio — Next-Gen Design Agency</title>
-  <meta name="description" content="Studio is a next-gen design agency for growing brands. Branding, mobile and web app design, and development for startups and category leaders.">
-  <meta name="theme-color" content="#5c1624">
+  <title>Big Wave Burgers — Burger-First Kitchen &amp; Café</title>
+  <meta name="description" content="Big Wave Burgers is a burger-first kitchen and café. Order our signature smash burgers, wood-fired pizza, loaded subs, sides and shakes for delivery or pickup.">
+  <meta name="theme-color" content="#12604C">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff3b30'/%3E%3Cpath d='M16 5v22M5 16h22M8.5 8.5l15 15M23.5 8.5l-15 15' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23fff6ee'/%3E%3Cpath d='M7 21.5C7 13.4 14.6 8 24 8s17 5.4 17 13.5z' fill='%23f97316'/%3E%3Crect x='6.5' y='22.8' width='35' height='4.4' rx='2.2' fill='%231f8a70'/%3E%3Crect x='9' y='28.6' width='30' height='6.4' rx='3.2' fill='%237b4a26'/%3E%3Cpath d='M7 36.2h34c0 3-2.2 4.6-5 4.6H12c-2.8 0-5-1.6-5-4.6z' fill='%23f97316'/%3E%3C/svg%3E">
 </head>
 <body>
-  <div class="frame">
-    <div class="shell">
-      <section class="hero" id="home">
-        <header class="site-header">
-          <a class="logo" href="#home" aria-label="Studio, home">
-            <svg class="mark-star" viewBox="0 0 32 32" aria-hidden="true">
-              <g fill="currentColor">
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(45 16 16)"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(90 16 16)"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(135 16 16)"/>
-              </g>
-            </svg>
-            <span>Studio<sup>®</sup></span>
-          </a>
+  <a class="skip" href="#menu">Skip to menu</a>
 
-          <nav id="site-nav" class="nav-links" aria-label="Primary">
-            <a href="#home">Home</a>
-            <a href="#studio">Studio</a>
-            <a href="#contact">Contact</a>
-          </nav>
-
-          <div class="header-actions">
-            <a class="book" href="#contact">
-              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=96&h=96&q=80" alt="" width="32" height="32">
-              Book a intro
-              <span aria-hidden="true">→</span>
-            </a>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-              <span class="sr-only">Open menu</span>
-              <span></span><span></span><span></span>
-            </button>
-          </div>
-        </header>
-
-        <div class="hero-body">
-          <div class="hero-copy">
-            <p class="eyebrow"><i></i> Next-Gen Design Agency</p>
-            <h1>Next-Gen<br>Design Agency for<br>Growing Brands.</h1>
-          </div>
-          <div class="hero-side">
-            <p id="hero-blurb">Branding
-Mobile &amp; Web App Design
-for Startups and Giants</p>
-            <div class="hero-actions">
-              <a class="btn btn-red" href="#work">View Projects <span aria-hidden="true">→</span></a>
-              <a class="btn btn-white" href="#contact">Reach Out <span aria-hidden="true">→</span></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="process" role="tablist" aria-label="How we work">
-          <button type="button" role="tab" id="tab-define" aria-selected="false" aria-controls="hero-blurb" data-tab="define">
-            <span class="plus" aria-hidden="true"></span> Define
-          </button>
-          <button type="button" role="tab" id="tab-design" aria-selected="true" aria-controls="hero-blurb" data-tab="design">
-            <span class="plus" aria-hidden="true"></span> Design
-          </button>
-          <button type="button" role="tab" id="tab-development" aria-selected="false" aria-controls="hero-blurb" data-tab="development">
-            <span class="plus" aria-hidden="true"></span> Development
-          </button>
-        </div>
-      </section>
-
-      <main>
-        <section class="clients" aria-label="Clients">
-          <p class="clients-label">
-            <svg class="mark-star mark-star-dark" viewBox="0 0 32 32" aria-hidden="true">
-              <g fill="currentColor">
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(45 16 16)"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(90 16 16)"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(135 16 16)"/>
-              </g>
-            </svg>
-            <span>We’ve done 500+ enterprise and business consulting.</span>
-          </p>
-          <ul class="logo-row">
-            <li class="wordmark wordmark-rb" aria-label="Red Bull">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 16c2-6 4-9 8-12 4 3 6 6 8 12-3-2-5-3-8-3s-5 1-8 3z"/><path fill="currentColor" d="M7 14c1.2-2.4 2.6-4 5-5.6 2.4 1.6 3.8 3.2 5 5.6-1.6-.7-3.2-1-5-1s-3.4.3-5 1z"/></svg>
-              Red Bull
-            </li>
-            <li class="wordmark wordmark-jd" aria-label="JD">JD</li>
-            <li class="wordmark wordmark-xbox" aria-label="Xbox">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8 8.5c2.2 1.4 3.6 2.2 4 2.4.4-.2 1.8-1 4-2.4-1.6 3-2.6 4.6-4 6.6-1.4-2-2.4-3.6-4-6.6z" fill="currentColor"/></svg>
-              XBOX
-            </li>
-            <li class="wordmark wordmark-hub" aria-label="HubSpot">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path fill="currentColor" d="M11 2h2v3h-2zm0 17h2v3h-2zM2 11h3v2H2zm17 0h3v2h-3zM4.2 4.2l1.4-1.4 2.1 2.1-1.4 1.4zM16.3 18.1l1.4-1.4 2.1 2.1-1.4 1.4zM18.1 5.6l1.4 1.4-2.1 2.1-1.4-1.4zM6.3 17.4l1.4 1.4-2.1 2.1-1.4-1.4z"/></svg>
-              HubSpot
-            </li>
-          </ul>
-        </section>
-
-        <section class="about" id="studio">
-          <div class="about-head">
-            <div>
-              <p class="eyebrow"><i></i> Who we are</p>
-              <h2>We build search-first digital systems to help category <em>leaders</em> lead their industries.</h2>
-            </div>
-            <a class="about-link" href="#services">About the studio <span aria-hidden="true">→</span></a>
-          </div>
-
-          <div class="gallery">
-            <figure>
-              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&h=1120&q=80" alt="Close portrait washed in red light" width="900" height="1120">
-            </figure>
-            <figure>
-              <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&h=1120&q=80" alt="Soft-focus portrait of a woman" width="900" height="1120">
-            </figure>
-            <figure>
-              <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=900&h=1120&q=80" alt="Portrait of a man in a warm jacket" width="900" height="1120">
-            </figure>
-            <figure>
-              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&h=1120&q=80" alt="Figure in motion against an orange background" width="900" height="1120">
-            </figure>
-          </div>
-        </section>
-
-        <section class="stats" aria-labelledby="numbers-title">
-          <p class="eyebrow" id="numbers-title"><i></i> By the numbers</p>
-          <div class="stat-grid">
-            <article class="stat">
-              <p class="stat-num">1%</p>
-              <h3>Expert-Vetted</h3>
-              <p>Recognized in the top 1% of freelancers for consistent quality, trust, and expertise.</p>
-            </article>
-            <article class="stat">
-              <p class="stat-num">30+</p>
-              <h3>Clients served</h3>
-              <p>From startups to giants — result-trusted like our only one.</p>
-            </article>
-            <article class="stat">
-              <p class="stat-num">100%</p>
-              <h3>Success Score</h3>
-              <p>All 5-star reviews. No compromises, no “just okay”.</p>
-            </article>
-            <article class="stat">
-              <p class="stat-num">8+</p>
-              <h3>Years of expertise</h3>
-              <p>Deep experience in UX, branding, and growth-driven design for real world products.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="services" id="services">
-          <div class="services-top">
-            <div>
-              <p class="eyebrow"><i></i> Services</p>
-              <h2>Our
-                <svg class="services-mark" viewBox="0 0 64 48" aria-hidden="true">
-                  <rect x="2" y="10" width="30" height="30" rx="8" fill="#ff8a3d"/>
-                  <rect x="24" y="4" width="30" height="30" rx="8" fill="#3b82f6"/>
-                  <circle cx="39" cy="19" r="6" fill="#fff"/>
-                  <circle cx="39" cy="19" r="2.4" fill="#3b82f6"/>
-                </svg>
-                Services
-              </h2>
-              <span class="red-rule" aria-hidden="true"></span>
-            </div>
-            <p class="services-lead">We craft high-impact digital experiences through strategic design, seamless coding, and creative thinking.</p>
-          </div>
-
-          <div class="services-layout">
-            <div class="service-list">
-              <a class="service" href="#contact" data-interest="Branding">
-                <span class="idx">01</span>
-                <span>
-                  <strong>Branding</strong>
-                  <span>Identity systems for brands that intend to lead the category.</span>
-                </span>
-                <span class="go" aria-hidden="true">→</span>
-              </a>
-              <a class="service" href="#contact" data-interest="Web design">
-                <span class="idx">02</span>
-                <span>
-                  <strong>Web design</strong>
-                  <span>Marketing sites and product surfaces built around search and clarity.</span>
-                </span>
-                <span class="go" aria-hidden="true">→</span>
-              </a>
-              <a class="service" href="#contact" data-interest="Mobile apps">
-                <span class="idx">03</span>
-                <span>
-                  <strong>Mobile apps</strong>
-                  <span>iOS and Android product design for startups and established teams.</span>
-                </span>
-                <span class="go" aria-hidden="true">→</span>
-              </a>
-              <a class="service" href="#contact" data-interest="Development">
-                <span class="idx">04</span>
-                <span>
-                  <strong>Development</strong>
-                  <span>Front-end engineering that keeps the design intact in production.</span>
-                </span>
-                <span class="go" aria-hidden="true">→</span>
-              </a>
-            </div>
-
-            <figure class="reel">
-              <img src="https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?auto=format&fit=crop&w=1200&h=1500&q=80" alt="Studio showreel still" width="1200" height="1500">
-              <button class="play" type="button" aria-haspopup="dialog" aria-controls="reel">
-                <span class="sr-only">Play studio reel</span>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9 7.5v9l8-4.5-8-4.5z"/></svg>
-              </button>
-              <figcaption>Studio reel · 0:42</figcaption>
-            </figure>
-          </div>
-        </section>
-
-        <section class="work" id="work">
-          <p class="eyebrow"><i></i> Selected work</p>
-          <div class="section-head">
-            <h2>Two recent launches.</h2>
-            <p>Brand and product work for teams that want to look like the leader, and operate like one.</p>
-          </div>
-          <div class="work-grid">
-            <a class="project" href="#contact" data-interest="Harbor — brand and web">
-              <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&h=1000&q=80" alt="Abstract color study for the Harbor identity" width="1400" height="1000">
-              <span class="shade"></span>
-              <span class="meta">
-                <strong>Harbor</strong>
-                <span>Brand identity and marketing site for a fintech</span>
-              </span>
-            </a>
-            <a class="project" href="#contact" data-interest="Lumen — mobile app">
-              <img src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?auto=format&fit=crop&w=1400&h=1000&q=80" alt="Editorial color frame for the Lumen app" width="1400" height="1000">
-              <span class="shade"></span>
-              <span class="meta">
-                <strong>Lumen</strong>
-                <span>Mobile product design for a wellness startup</span>
-              </span>
-            </a>
-          </div>
-        </section>
-
-        <section class="careers" id="careers">
-          <p class="eyebrow"><i></i> Careers</p>
-          <div class="section-head">
-            <h2>Small team. Serious craft.</h2>
-            <p>We hire people who can hold a point of view and still ship. Remote, overlapping European and US hours.</p>
-          </div>
-          <div class="roles">
-            <article class="role">
-              <div>
-                <h3>Product Designer</h3>
-                <p>Brand systems, marketing sites, and product UI. 4+ years.</p>
-              </div>
-              <a class="btn btn-line" href="#contact" data-interest="Role — Product Designer">Apply →</a>
-            </article>
-            <article class="role">
-              <div>
-                <h3>Frontend Engineer</h3>
-                <p>Design-system implementation, performance, and launch quality. 4+ years.</p>
-              </div>
-              <a class="btn btn-line" href="#contact" data-interest="Role — Frontend Engineer">Apply →</a>
-            </article>
-          </div>
-        </section>
-
-        <section class="blog" id="blog">
-          <p class="eyebrow"><i></i> Blog</p>
-          <div class="section-head">
-            <h2>Notes from the studio.</h2>
-          </div>
-          <div class="posts">
-            <article class="post">
-              <p class="post-kicker">Practice · 6 min</p>
-              <h3>Search-first, then visual.</h3>
-              <p>Category leaders win the words before they win the layout. We write the page like a product: one job, one proof, one next step.</p>
-            </article>
-            <article class="post">
-              <p class="post-kicker">Process · 4 min</p>
-              <h3>What we ask in week one.</h3>
-              <p>Who already trusts you, what they compare you with, and which sentence should be impossible to forget. Design starts there.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="contact" id="contact">
-          <div class="contact-copy">
-            <p class="eyebrow"><i></i> Contact</p>
-            <h2>Tell us what you’re building.</h2>
-            <p>A branding sprint, a product redesign, or a full launch site. Share the context and we’ll reply within two working days.</p>
-            <p class="contact-mail"><a href="mailto:hello@studio.design">hello@studio.design</a></p>
-            <p class="contact-note">Remote · Worldwide</p>
-          </div>
-
-          <form class="contact-form" id="contact-form">
-            <label>Name
-              <input name="name" type="text" autocomplete="name" required placeholder="Your name">
-            </label>
-            <label>Email
-              <input name="email" type="email" autocomplete="email" required placeholder="you@company.com">
-            </label>
-            <label>Topic
-              <input name="topic" id="topic" type="text" value="A new project">
-            </label>
-            <label>Message
-              <textarea name="message" required placeholder="What do you need, and when?"></textarea>
-            </label>
-            <button class="btn btn-red" type="submit">Send message <span aria-hidden="true">→</span></button>
-          </form>
-
-          <div class="success" id="form-success" hidden>
-            <h3>Message received.</h3>
-            <p>Thanks — we’ll reply within two working days.</p>
-            <button class="btn btn-red" id="form-reset" type="button">Send another</button>
-          </div>
-        </section>
-
-        <footer class="footer">
-          <a class="logo logo-light" href="#home">
-            <svg class="mark-star" viewBox="0 0 32 32" aria-hidden="true">
-              <g fill="currentColor">
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(45 16 16)"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(90 16 16)"/>
-                <rect x="14.2" y="1.5" width="3.6" height="29" rx="1.8" transform="rotate(135 16 16)"/>
-              </g>
-            </svg>
-            <span>Studio<sup>®</sup></span>
-          </a>
-          <nav class="footer-nav" aria-label="Footer">
-            <a href="#studio">Studio</a>
-            <a href="#work">Work</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-          </nav>
-          <p>© 2026 Studio. All rights reserved.</p>
-        </footer>
-      </main>
-    </div>
+  <div class="topbar">
+    <p>Free delivery on orders over $30 · Kitchen open 11:00 – 23:00 daily</p>
+    <p class="topbar-phone"><a href="tel:+14155550142">(415) 555-0142</a></p>
   </div>
 
-  <dialog class="reel-dialog" id="reel" aria-labelledby="reel-title">
-    <button class="reel-close" type="button" aria-label="Close">×</button>
-    <p class="eyebrow"><i></i> Showreel</p>
-    <h2 id="reel-title">42 seconds on how Studio launches a brand.</h2>
-    <p>Strategy, identity, product UI, and the site that ships with them. The full cut is shared in the intro call.</p>
-    <a class="btn btn-red" href="#contact" data-interest="Studio reel">Book a intro →</a>
+  <header class="site-header" id="site-header">
+    <a class="logo" href="#top" aria-label="Big Wave Burgers, home">
+      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path class="bun-top" d="M7 21.5C7 13.4 14.6 8 24 8s17 5.4 17 13.5z"/>
+        <circle class="seed" cx="18.5" cy="14.6" r="1.5"/>
+        <circle class="seed" cx="24" cy="12.8" r="1.5"/>
+        <circle class="seed" cx="29.5" cy="14.6" r="1.5"/>
+        <rect class="lettuce" x="6.5" y="22.8" width="35" height="4.4" rx="2.2"/>
+        <rect class="patty" x="9" y="28.6" width="30" height="6.4" rx="3.2"/>
+        <path class="bun-bottom" d="M7 36.2h34c0 3-2.2 4.6-5 4.6H12c-2.8 0-5-1.6-5-4.6z"/>
+      </svg>
+      <span class="logo-text">Big<em>Wave</em><sup>®</sup></span>
+    </a>
+
+    <nav id="site-nav" class="nav-links" aria-label="Primary">
+      <a href="#signature">Signature Burgers</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#locations">Locations</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="cart-btn" id="cart-open" type="button" aria-controls="cart-drawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2.2l2.3 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.55L21 8H6.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg>
+        <span>Your order</span>
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open menu</span>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><i></i> Burger-first since 2012</p>
+        <h1>Big, messy,<br><em>worth-it</em> burgers.</h1>
+        <p class="hero-lead">Hand-pressed patties, brioche baked in-house every morning, and sauces made from scratch. Plus wood-fired pizza, loaded subs and thick shakes — all orderable online.</p>
+        <div class="hero-actions">
+          <button class="btn btn-orange" type="button" data-scroll="#menu">Order now <span aria-hidden="true">→</span></button>
+          <a class="btn btn-outline" href="#signature">Meet the signature six</a>
+        </div>
+        <ul class="hero-facts">
+          <li><strong>4.9★</strong><span>2,400+ reviews</span></li>
+          <li><strong>25 min</strong><span>average delivery</span></li>
+          <li><strong>Daily</strong><span>fresh-ground beef</span></li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=80" alt="A double cheeseburger with melted cheddar on a toasted brioche bun" width="1200" height="900">
+        <p class="hero-badge"><span>Specialty</span> Smash burgers, seared to order</p>
+      </div>
+    </section>
+
+    <section class="signature" id="signature">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><i></i> What we're known for</p>
+          <h2>The Signature Six</h2>
+        </div>
+        <p class="section-lead">Burgers are the heart of this kitchen. Six recipes we grind, sear and stack in-house every single day — the rest of the menu just keeps them company.</p>
+      </div>
+      <div class="signature-grid" id="signature-grid"></div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><i></i> Order online</p>
+          <h2>Full menu</h2>
+        </div>
+        <p class="section-lead">Add anything to your order and check out in under a minute. Delivery or pickup, pay online or on arrival.</p>
+      </div>
+
+      <div class="menu-tabs" id="menu-tabs" role="tablist" aria-label="Menu categories"></div>
+      <div class="menu-grid" id="menu-grid"></div>
+      <p class="menu-note">Allergen and ingredient information available on request. Prices include tax. A $3.99 delivery fee applies to orders under $30.</p>
+    </section>
+
+    <section class="how" id="how">
+      <div class="how-copy">
+        <p class="eyebrow eyebrow-light"><i></i> How ordering works</p>
+        <h2>Three steps to a hot bag.</h2>
+        <ol class="how-steps">
+          <li>
+            <span class="step-num">1</span>
+            <div>
+              <h3>Build your order</h3>
+              <p>Browse burgers, pizza, subs, sides and shakes. Adjust quantities right in the cart.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <div>
+              <h3>Choose delivery or pickup</h3>
+              <p>Enter your address for delivery, or pick the closest shop and skip the queue.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <div>
+              <h3>We cook and you eat</h3>
+              <p>You get an order number instantly. Delivery lands in 25–35 minutes, pickup in 15.</p>
+            </div>
+          </li>
+        </ol>
+        <button class="btn btn-orange" type="button" data-scroll="#menu">Start an order <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="how-media">
+        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=80" alt="Chef pressing a burger patty on a hot grill" loading="lazy" width="900" height="900">
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-media">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80" alt="Interior of the Big Wave Burgers café with wooden tables and warm lighting" loading="lazy" width="1200" height="900">
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow"><i></i> Our story</p>
+        <h2>A single grill, a long line, and a burger worth waiting for.</h2>
+        <p>Big Wave started as a twelve-seat counter behind the harbour with one flat-top and a hand-written menu. We still grind our beef twice daily, still bake the brioche before we open, and still think a burger should be the thing you drive across town for.</p>
+        <p>A decade on, the line got longer and the menu grew — pizza from the wood oven, foot-long subs, sea-salt fries and shakes thick enough to stand a spoon in. The burgers never changed. They never will.</p>
+        <div class="story-stats">
+          <div><strong>12</strong><span>years on the harbour</span></div>
+          <div><strong>1.4M</strong><span>burgers served</span></div>
+          <div><strong>2</strong><span>shops, same recipes</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="locations" id="locations">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><i></i> Find us</p>
+          <h2>Two shops, one kitchen standard.</h2>
+        </div>
+        <p class="section-lead">Order for pickup and your bag is ready at the counter in about fifteen minutes.</p>
+      </div>
+      <div class="location-grid">
+        <article class="location">
+          <p class="location-tag">Flagship</p>
+          <h3>Harbourfront</h3>
+          <p class="location-address">42 Pier Street, Bay District</p>
+          <dl class="location-hours">
+            <div><dt>Mon – Thu</dt><dd>11:00 – 22:30</dd></div>
+            <div><dt>Fri – Sun</dt><dd>11:00 – 23:30</dd></div>
+          </dl>
+          <p class="location-meta">Dine-in · Pickup · Delivery within 5 km</p>
+          <a class="location-link" href="tel:+14155550142">Call the shop <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="location">
+          <p class="location-tag">Café &amp; bakery</p>
+          <h3>Uptown</h3>
+          <p class="location-address">118 Grand Avenue, Old Town</p>
+          <dl class="location-hours">
+            <div><dt>Mon – Fri</dt><dd>08:00 – 22:00</dd></div>
+            <div><dt>Sat – Sun</dt><dd>09:00 – 22:00</dd></div>
+          </dl>
+          <p class="location-meta">Coffee bar · Pickup · Delivery within 4 km</p>
+          <a class="location-link" href="tel:+14155550188">Call the shop <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="location location-cta">
+          <p class="eyebrow eyebrow-light"><i></i> Hungry now?</p>
+          <h3>Skip the line.</h3>
+          <p>Build your order online and we'll have it bagged, boxed and ready.</p>
+          <button class="btn btn-orange" type="button" data-scroll="#menu">Order online <span aria-hidden="true">→</span></button>
+          <p class="location-meta light">order@bigwaveburgers.com</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo logo-footer" href="#top">
+      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path class="bun-top" d="M7 21.5C7 13.4 14.6 8 24 8s17 5.4 17 13.5z"/>
+        <circle class="seed" cx="18.5" cy="14.6" r="1.5"/>
+        <circle class="seed" cx="24" cy="12.8" r="1.5"/>
+        <circle class="seed" cx="29.5" cy="14.6" r="1.5"/>
+        <rect class="lettuce" x="6.5" y="22.8" width="35" height="4.4" rx="2.2"/>
+        <rect class="patty" x="9" y="28.6" width="30" height="6.4" rx="3.2"/>
+        <path class="bun-bottom" d="M7 36.2h34c0 3-2.2 4.6-5 4.6H12c-2.8 0-5-1.6-5-4.6z"/>
+      </svg>
+      <span class="logo-text">Big<em>Wave</em><sup>®</sup></span>
+    </a>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#signature">Signature Burgers</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#locations">Locations</a>
+    </nav>
+    <p class="footer-note">© 2026 Big Wave Burgers. Burger-first, always.</p>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Your order" aria-hidden="true">
+    <header class="cart-head">
+      <h2>Your order</h2>
+      <button class="icon-btn" id="cart-close" type="button" aria-label="Close order panel">×</button>
+    </header>
+    <div class="cart-body" id="cart-items"></div>
+    <div class="cart-foot">
+      <div class="cart-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="cart-row"><span>Delivery</span><span id="cart-delivery">$0.00</span></div>
+      <div class="cart-row cart-total"><span>Total</span><span id="cart-total">$0.00</span></div>
+      <button class="btn btn-orange btn-block" id="cart-checkout" type="button" disabled>Checkout <span aria-hidden="true">→</span></button>
+    </div>
+  </aside>
+
+  <dialog class="sheet" id="checkout-dialog" aria-labelledby="checkout-title">
+    <button class="icon-btn sheet-close" id="checkout-close" type="button" aria-label="Close checkout">×</button>
+    <p class="eyebrow"><i></i> Checkout</p>
+    <h2 id="checkout-title">Where's this going?</h2>
+
+    <form id="checkout-form" class="checkout-form" novalidate>
+      <div class="checkout-grid">
+        <div class="checkout-fields">
+          <fieldset class="choice">
+            <legend>Order type</legend>
+            <label class="choice-opt">
+              <input type="radio" name="mode" value="delivery" checked>
+              <span><strong>Delivery</strong><small>25–35 min · $3.99 (free over $30)</small></span>
+            </label>
+            <label class="choice-opt">
+              <input type="radio" name="mode" value="pickup">
+              <span><strong>Pickup</strong><small>Ready in ~15 min at your chosen shop</small></span>
+            </label>
+          </fieldset>
+
+          <div class="field-row">
+            <label class="field">Full name
+              <input name="name" type="text" autocomplete="name" required placeholder="Alex Rivera">
+            </label>
+            <label class="field">Phone
+              <input name="phone" type="tel" autocomplete="tel" required placeholder="(415) 555-0123">
+            </label>
+          </div>
+
+          <label class="field">Email
+            <input name="email" type="email" autocomplete="email" required placeholder="you@email.com">
+          </label>
+
+          <div class="field-group" data-mode="delivery">
+            <label class="field">Delivery address
+              <input name="address" type="text" autocomplete="street-address" placeholder="24 Bayview Road, Apt 3">
+            </label>
+            <label class="field">City &amp; ZIP
+              <input name="city" type="text" autocomplete="postal-code" placeholder="Bay District, 94111">
+            </label>
+          </div>
+
+          <div class="field-group" data-mode="pickup" hidden>
+            <label class="field">Pickup shop
+              <select name="shop">
+                <option>Harbourfront — 42 Pier Street</option>
+                <option>Uptown — 118 Grand Avenue</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">When
+              <select name="when">
+                <option>As soon as possible</option>
+                <option>In 30 minutes</option>
+                <option>In 1 hour</option>
+                <option>In 2 hours</option>
+              </select>
+            </label>
+            <label class="field">Payment
+              <select name="payment">
+                <option>Pay on delivery — card</option>
+                <option>Pay on delivery — cash</option>
+                <option>Pay at pickup counter</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">Notes for the kitchen
+            <textarea name="notes" placeholder="No pickles, extra house sauce, ring the buzzer twice…"></textarea>
+          </label>
+
+          <p class="form-error" id="checkout-error" hidden></p>
+        </div>
+
+        <aside class="checkout-summary">
+          <h3>Order summary</h3>
+          <ul class="summary-list" id="summary-list"></ul>
+          <div class="cart-row"><span>Subtotal</span><span id="summary-subtotal">$0.00</span></div>
+          <div class="cart-row" id="summary-delivery-row"><span>Delivery</span><span id="summary-delivery">$0.00</span></div>
+          <div class="cart-row cart-total"><span>Total</span><span id="summary-total">$0.00</span></div>
+          <button class="btn btn-orange btn-block" type="submit" id="place-order">Place order <span aria-hidden="true">→</span></button>
+          <p class="summary-note">No payment is taken on this site. You pay the driver or the counter.</p>
+        </aside>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="sheet sheet-narrow" id="confirm-dialog" aria-labelledby="confirm-title">
+    <div class="confirm-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.3L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <h2 id="confirm-title">Order placed.</h2>
+    <p class="confirm-order">Order <strong id="confirm-number">BW-0000</strong></p>
+    <p class="confirm-eta" id="confirm-eta"></p>
+    <ul class="summary-list" id="confirm-list"></ul>
+    <div class="cart-row cart-total"><span>Total</span><span id="confirm-total">$0.00</span></div>
+    <p class="confirm-note">We've got it. To confirm by email as well, tap below.</p>
+    <div class="confirm-actions">
+      <a class="btn btn-outline" id="confirm-mail" href="#">Email us the order</a>
+      <button class="btn btn-orange" id="confirm-done" type="button">Done</button>
+    </div>
   </dialog>
 
   <script src="main.js"></script>
